@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //array de tamanho 4 já definido
+      let nomes = ["João", "Maria", "José", "Izabel"];
+
+      //método para remover o último elemento do array, nesse caso seria a 'Izabel'
+      nomes.pop();
+
+      for (let i = 0; i < nomes.length; i++) {
+        console.log(`${i + 1}° nome = ${nomes[i]}`);
+      }
+      console.log(`Quantidade de nomes nesse array = ${nomes.length}`);
+    </script>
+  </body>
+</html>
