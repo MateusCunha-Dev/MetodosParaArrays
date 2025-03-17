@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let nomes = ["Mateus", "Júlio", "Kevin", "Daniel"];
+      for (let i = 0; i < nomes.length; i++) {
+        console.log(`${i + 1}° nome = ${nomes[i]}`);
+      }
+
+      console.log("\n--------------\n");
+
+      //método para inverter os elementos de um array
+      let nomesInvertidos = nomes.toReversed();
+      for (let j = 0; j < nomesInvertidos.length; j++) {
+        console.log(`${j + 1}° nome = ${nomesInvertidos[j]}`);
+      }
+    </script>
+  </body>
+</html>
