@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let tamanhoVetor = Number(prompt("Qual tamanho do vetor"));
+
+      let numeros = [];
+
+      for (let i = 0; i < tamanhoVetor; i++) {
+        numeros[i] = Number(prompt(`${i + 1}° elemento do vetor`));
+      }
+      //método para deixar os elementos de um array ordenados (crescente)
+      let numerosOrdenados = numeros.toSorted();
+
+      console.log(`Vetor original = ${numeros}`);
+      console.log(`Vetor ordenado = ${numerosOrdenados}`);
+    </script>
+  </body>
+</html>
